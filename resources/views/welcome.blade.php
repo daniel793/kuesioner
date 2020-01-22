@@ -18,6 +18,8 @@
 
         <div id="app" class="">
 
+            @{{info}}
+
             <div class="shadow-lg border-t-8 border-blue-500">
                 <my-navbar></my-navbar>
             </div>
@@ -30,6 +32,8 @@
                     <router-view></router-view>
                 </div>
             </div>
+
+            
 
         </div>
 

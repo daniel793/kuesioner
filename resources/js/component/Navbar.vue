@@ -1,12 +1,4 @@
-import Vue from 'vue';
-
-Vue.component('my-navbar', {
-    data: function () {
-      return {
-        count: 0
-      }
-    },
-    template: `
+<template>
     <div class="container">
         <nav class="flex items-center justify-between flex-wrap p-2 text-black ">
             <div class="flex items-center flex-shrink-0 mr-6">
@@ -30,6 +22,10 @@ Vue.component('my-navbar', {
             </div>
         </nav>
     </div>
+</template>
+
+<script>
+export default {
     
-    `
-  })
+}
+</script>
